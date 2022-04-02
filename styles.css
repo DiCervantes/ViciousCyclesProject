@@ -1,0 +1,96 @@
+/*Logo in header*/
+header {
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+
+    background-color: rgb(27, 32, 104);
+    font-family:'Times New Roman', Times, serif;
+    color: bisque;
+}
+/*style logo*/
+.content-wrap {
+    max-width: 800%;
+    width: 95%;
+    max-height: 95%;
+    padding-top: 50px;
+}
+/*style free shipping banner*/
+h1 {
+    background-color:rgb(184, 103, 23);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    color: black;
+    margin-top: 50px;
+}
+/*style nav*/
+ul {
+    align-content: center;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;
+    text-align: center;
+    font-size: 25px;
+}
+li a {
+    max-width: 80%;
+    text-align: center;
+    color:rgb(99, 96, 96);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+ background-color: rgb(172, 159, 159);   
+}
+h3 {
+    text-align: center;
+}
+/*style relative img*/
+.bike {
+    float: center;
+    max-width: 60%;
+    width: 10px 50px;
+    max-height: 40%;
+    padding: 0 20px 20px 0;
+}
+.donate {
+    max-width: 30%;
+    max-height: 100%;
+    height: 300px;
+    float:right;
+    position:relative;
+}
+.repair {
+    float: center;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    height: 250px
+}
+.fb {
+    width:5px 5px;
+    max-width: 2%;
+    padding: 5px;
+}
+.link {
+    color: white;
+}
+.twitter {
+    width: 5px 5px;
+    max-width: 2%;
+    padding: 5px ;
+}
+br{
+    padding:10px;
+}
+footer{
+    text-align: center;
+}
